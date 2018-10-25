@@ -5,7 +5,7 @@ import {submitAction,checkAction} from '../actions'
 function mapDispatchToProps(dispatch){
     return{
         onSubmit:()=>dispatch(submitAction()),
-        onCheck:()=>dispatch(checkAction()),
+        onCheck:(type,id)=>dispatch(checkAction(type,id)),
 
         
     }

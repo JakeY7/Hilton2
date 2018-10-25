@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import Room from '../containers/Room'
-import Select from "../containers/Select";
+import Room from '../components/Room'
 
-const roomNum=4;
+
 
 
 //{
